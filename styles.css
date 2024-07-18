@@ -32,7 +32,7 @@ body {
     margin: 0;
 }
 
-.SSnx-logo {
+.secondary-logo {
     width: 150px;
 }
 
@@ -105,7 +105,7 @@ footer {
     text-align: center;
     font-size: 0.8em;
     margin: 0;
-    padding: 1em;
+    padding: 0em;
     position: fixed;
     bottom: 0;
     width: 100%;
