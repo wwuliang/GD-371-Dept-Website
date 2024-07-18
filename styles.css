@@ -110,6 +110,6 @@ footer {
     bottom: 0;
     width: 100%;
     display: none;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.5s ease-in-out;
 }
