@@ -1,0 +1,115 @@
+body {
+    font-family: Trebuchet MS, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    padding: 1em;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.top-text, .bottom-text {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.secondary-logo {
+    width: 150px;
+}
+
+.title-container {
+    flex: 1;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1em;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1em;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 1em;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #004080;
+    display: block;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+aside ul li a:hover {
+    background-color: #004080;
+    color: white;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 1em;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
